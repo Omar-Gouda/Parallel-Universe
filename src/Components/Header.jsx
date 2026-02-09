@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import logo from "../assets/Universe.png";
-import Aurora from "../Props/Aurora"; // Make sure this path is correct
+import Aurora from "../Props/Aurora";
 
-// Carousel slides with optional title/subtitle and Galaxy color settings
+
 const slides = [
   {
     id: 1,
@@ -104,7 +104,7 @@ function Header() {
               index === current ? "opacity-100" : "opacity-0"
             }`}
           >
-            {/* Galaxy background */}
+            {/* Aurora background */}
             <Aurora
                 colorStops={["#e298ec", "#e89cd7", "#f2acfb"]}
                 blend={0.3}
@@ -141,3 +141,4 @@ function Header() {
 }
 
 export default Header;
+
