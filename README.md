@@ -98,6 +98,7 @@ ________________________________________________________________________________
 📁 Project Structure
 
 └── 📁 e-commerce
+
     ├── 📁 public
     │   └── 🖼️ New-Product.png
     ├── 📁 src
@@ -197,5 +198,7 @@ ________________________________________________________________________________
 📌 Author
 
 Omar Gouda
+
 Parallel Universe
+
 Frontend-focused E-commerce Project
